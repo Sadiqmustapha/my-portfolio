@@ -59,4 +59,12 @@ function myFunction() {
       btnText.innerHTML = "Read less";
       moreText.style.display = "inline";
     }
-  }
+  };
+
+  function readMore(){
+    
+    let myBtn = document.getElementById('myBtn')
+    if(myBtn.innerHTML === 'Read more'){
+        myBtn.innerHTML = 'hello'
+    }
+  };
